@@ -135,8 +135,8 @@ def date_start(start):
     start_dict = {}
     start_dict["_start_date"] = start_date
     start_dict["minimum_temp"] = results[0][0]
-    start_dict["maximum_temp"] = results[0][1]
-    start_dict["average_temp"] = results[0][2]
+    start_dict["average_temp"] = results[0][1]
+    start_dict["maximum_temp"] = results[0][2]
     
     return jsonify(start_dict)
 
@@ -160,8 +160,8 @@ def date_start_end(start,end):
     start_end_dict["_end_date"] = end_date
     start_end_dict["_start_date"] = start_date
     start_end_dict["minimum_temp"] = results[0][0]
-    start_end_dict["maximum_temp"] = results[0][1]
-    start_end_dict["average_temp"] = results[0][2]
+    start_end_dict["average_temp"] = results[0][1]
+    start_end_dict["maximum_temp"] = results[0][2]
     
     return jsonify(start_end_dict)
 
