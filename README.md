@@ -27,7 +27,7 @@ Uses: Python, Pandas, Matplotlib, and SQLAlchemy
  * Using the most active weather station (the station with the highest count of observations), retrieve the temperature data (tobs) for the most recent 12 months in the database.
      - Matplotlib was used to plot the results in a histogram:  this histogram shows the most frequent temperatures that were recorded.
     
- ![tf](images/temp_freq.PNG)
+ ![tf](images/temp_freq.png)
 
   * Queries to help with vacation planning:
 
@@ -37,7 +37,7 @@ Uses: Python, Pandas, Matplotlib, and SQLAlchemy
     - Retrieve rainfall data from each weather station for the planned vacation days.
     - Calculate the Min, Max, and Avg temperatures for the planned vacation days and plot the anticipated temperatures for the vacation.
     
-![tt](images/trip_temps.png)
+![tt](images/trip_temps.PNG)
 
 # PART II - Flask
 This section of the project is saved in the Python file: **app**
