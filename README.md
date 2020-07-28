@@ -17,7 +17,7 @@ Uses: Python, Pandas, Matplotlib, and SQLAlchemy
     - Matplotlib was used to plot the results.
     - Pandas was used to print the summary statistics
 
- ![rbd](images/rain_by_date.PNG)
+ ![rbd](images/rain_by_date.png)
 
  
  * Determine the most active weather stations recording climate data in Hawaii.
@@ -37,7 +37,7 @@ Uses: Python, Pandas, Matplotlib, and SQLAlchemy
     - Retrieve rainfall data from each weather station for the planned vacation days.
     - Calculate the Min, Max, and Avg temperatures for the planned vacation days and plot the anticipated temperatures for the vacation.
     
-![tt](images/trip_temps.PNG)
+![tt](images/trip_temps.png)
 
 # PART II - Flask
 This section of the project is saved in the Python file: **app**
